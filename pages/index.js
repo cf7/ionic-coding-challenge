@@ -118,7 +118,45 @@ export default function Home() {
         </Row>
 
         <Row className="footer">
-
+          <Row className="footer-links">
+            <Col>
+              <h2>Solutions</h2>
+              <ul>
+                <li>
+                  <a href="#">Screen Sharing</a>
+                </li>
+                <li>
+                  <a href="#">Marketing</a>
+                </li>
+                <li>
+                  <a href="#">Commerce</a>
+                </li>
+              </ul>
+            </Col>
+            <Col>
+              <h2>Company</h2>
+              <ul>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Jobs</a>
+                </li>
+              </ul>
+            </Col>
+          </Row>
+          <Row className="company-info">
+            <p>© 2021 Acme, Inc. All rights reserved.</p>
+            <div>
+              <img src="/assets/logo-facebook1.png" />
+              <img src="/assets/logo-instagram1.png" />
+              <img src="/assets/logo-twitter1.png" />
+            </div>
+            
+          </Row>
         </Row>
 
       </Container>
