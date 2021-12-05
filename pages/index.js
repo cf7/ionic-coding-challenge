@@ -13,13 +13,12 @@ import Button from 'react-bootstrap/Button';
 
 export default function Home() {
   return (
-    <div className="container">
+    <Container>
       <NextHead>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </NextHead>
 
-      <Container>
         <Navbar>
           <Navbar.Brand href="#">
             <img
@@ -52,25 +51,24 @@ export default function Home() {
 
         <Row className="header">
           
-          <Col className="copy">
-            {/*<Row>*/}
+          <Col className="header-copy">
+            <Row>
               <h2 value="line-1">Your best work.</h2>
               <h2 value="line-2">Done together.</h2>
               <p>
                 Build better a business, faster. Start sharing your work across your company—in realtime.
               </p>
             {/*</Row>*/}
-            {/*<Row>*/}
+            <Row>
               <Button variant="primary" value="try-it-free">TRY IT FREE</Button>
               <Button variant="primary" value="download">DOWNLOAD</Button>
-            {/*</Row>*/}
+            </Row>
+            </Row>
           </Col>
 
-          <Col>
+          <Col className="header-image">
             <img
               src="/assets/image_stock.png"
-              width="620"
-              height="634"
             />
           </Col>
 
@@ -148,6 +146,7 @@ export default function Home() {
               </ul>
             </Col>
           </Row>
+          <div className="footer-line"></div>
           <Row className="company-info">
             <p>© 2021 Acme, Inc. All rights reserved.</p>
             <div>
@@ -160,6 +159,5 @@ export default function Home() {
         </Row>
 
       </Container>
-    </div>
   );
 }

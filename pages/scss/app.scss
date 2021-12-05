@@ -1,22 +1,43 @@
 // @import '~bootstrap/scss/bootstrap';
 div.container {
-  
+  max-width: 2000px;
+  height: 634px;
+  // left: 0px;
+  // top: 0px;
+
+  margin: 0px;
 }
 
 div.header {
   // display: inline-flex;
+  // flex-wrap: nowrap;
   background: #F9FAFD;
   mix-blend-mode: normal;
-  .copy {
-    // display: inline-flex;
-    width: 50%;
+  .header-copy {
+    display: flex;
+    // position: relative;
+    // width: 50%;
     // flex-wrap: nowrap;
     // flex-direction: col;
-    align-items: center;
+    // align-items: center;
+    // block-start: 100px;
+    // vertical-align: middle;
     justify-content: center;
+    align-items: center;
+    .row {
+      // display: flex;
+      // position: relative;
+      // width: 514px;
+      // height: 290px;
+      // left: 89px;
+      // top: 188px;
+
+      max-width: 514px;
+
+      // margin: 0 auto;
     h2 {
       // display: inline-block;
-      align-self: center;
+      // align-self: center;
       // height: 110px;
       // width: 514px;
       // left: 0px;
@@ -24,11 +45,8 @@ div.header {
       // border-radius: nullpx;
 
       margin: 0px;
-
-      // left: 0%;
-      // right: 0%;
-      // top: 0%;
-      // bottom: 62.07%;
+      padding-left: 0px;
+      
 
       font-family: Inter;
       font-style: normal;
@@ -47,13 +65,15 @@ div.header {
       color: #FD815A;
     }
     p {
-      // display: block !important;
-      margin: 0px;
+      display: flex;
+      margin: 40px 0px 40px 0px;
+      padding-left: 0px;
+      // max-width: 248px;
 
-      left: 0%;
-      right: 0%;
-      top: 51.72%;
-      bottom: 31.72%;
+      // left: 0%;
+      // right: 0%;
+      // top: 51.72%;
+      // bottom: 31.72%;
 
       font-family: Inter;
       font-style: normal;
@@ -67,15 +87,30 @@ div.header {
 
       color: #535C68;
     }
-    .btn[value="try-it-free"] {
-      background: #FD815A;
-      border-radius: 8px;
+    .row {
+      flex-wrap: nowrap;
+      .btn[value="try-it-free"] {
+        margin-right: 8px;
+        background: #FD815A;
+        border: unset;
+        max-width: 156px;
+      }
+      .btn[value="download"] {
+        margin-left: 8px;
+        background: #E6ECFF;
+        border: unset;
+        color: #4965CB;
+        max-width: 156px;
+      }
     }
-    .btn[value="download"] {
-      background: #E6ECFF;
-      border-radius: 8px;
-      color: #4965CB;
-    }
+  }
+  }
+  .header-image {
+    position: relative;
+    width: 620px;
+    height: 634px;
+    left: 0px;
+    top: 0px;
   }
 }
 
@@ -303,7 +338,14 @@ div.footer {
       color: #C1C8D6;
     }
   }
+  div.footer-line {
+    width: 1224px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
 
+    border: 1px solid #4E5767;
+  }
   div.company-info {
     p {
       left: 0.08%;
