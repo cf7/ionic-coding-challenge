@@ -7,6 +7,9 @@ export default class IButton extends React.Component {
   }
 
   render () {
-    return ();
+    return (
+      <>
+      </>
+    );
   }
 }
