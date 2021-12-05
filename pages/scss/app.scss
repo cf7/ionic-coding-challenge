@@ -1,6 +1,77 @@
 
+
+
+div.feature-section-header {
+  // position: absolute;
+  // width: 692px;
+  // height: 135px;
+  // left: 265px;
+  // top: 0px;
+  h3 {
+    left: 0%;
+    right: 0%;
+    top: 22.22%;
+    bottom: 56.3%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100%;
+    /* or 40px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #2B2F35;
+  }
+  p.feature-section-overline {
+    // position: absolute;
+    width: 112px;
+    height: 12px;
+    left: 290px;
+    top: -2px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #7B8798;
+  }
+  p.feature-section-description {
+    left: 0%;
+    right: 0%;
+    top: 64.44%;
+    bottom: 0%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #535C68;
+  }
+}
+
 div.feature {
-  position: absolute;
+  // position: absolute;
+  display: inline-flex;
+
   left: 5.98%;
   right: 51.37%;
   top: 0%;
@@ -10,11 +81,36 @@ div.feature {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 160%;
+  // line-height: 160%;
   /* or 32px */
 
-  display: flex;
-  align-items: center;
+  align-items: top;
 
   color: #2B2F35;
+  div.feature-content {
+    margin-left: 5px;
+
+    h4 {
+      margin: 0px;
+    }
+
+    p {
+      left: 5.98%;
+      right: 51.37%;
+      top: 15.7%;
+      bottom: 59.5%;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 160%;
+      /* or 26px */
+
+      display: flex;
+      align-items: center;
+
+      color: #535C68;
+    }
+  }
 }
