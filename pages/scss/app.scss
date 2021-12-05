@@ -12,7 +12,8 @@ div.header {
   // display: inline-flex;
   // flex-wrap: nowrap;
   background: #F9FAFD;
-  mix-blend-mode: normal;
+  // mix-blend-mode: normal;
+  padding: 0px;
   .header-copy {
     display: flex;
     // position: relative;
@@ -106,11 +107,17 @@ div.header {
   }
   }
   .header-image {
-    position: relative;
-    width: 620px;
-    height: 634px;
+    // position: relative;
+    padding: 0px;
+    max-width: 620px;
+    max-height: 634px;
     left: 0px;
     top: 0px;
+    background-color: #5A7EFD;
+    img {
+      padding: 0px;
+      mix-blend-mode: overlay;
+    }
   }
 }
 
