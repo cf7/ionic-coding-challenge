@@ -1,12 +1,12 @@
 // @import '~bootstrap/scss/bootstrap';
 div.container {
-  background: #F9FAFD;
-  mix-blend-mode: normal;
+  
 }
 
 div.header {
   // display: inline-flex;
-
+  background: #F9FAFD;
+  mix-blend-mode: normal;
   .copy {
     // display: inline-flex;
     width: 50%;
@@ -43,7 +43,9 @@ div.header {
 
       color: #2B2F35;
     }
-
+    h2[value="line-2"] {
+      color: #FD815A;
+    }
     p {
       // display: block !important;
       margin: 0px;
@@ -208,4 +210,54 @@ div.feature {
       color: #535C68;
     }
   }
+}
+
+div.cta {
+  background: #F9FAFD;
+  mix-blend-mode: normal;
+  h2 {
+      // display: inline-block;
+      align-self: center;
+      // height: 110px;
+      // width: 514px;
+      // left: 0px;
+      // top: 0px;
+      // border-radius: nullpx;
+
+      margin: 0px;
+
+      // left: 0%;
+      // right: 0%;
+      // top: 0%;
+      // bottom: 62.07%;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 100%;
+      /* or 64px */
+
+      // display: flex;
+      // align-items: center;
+      letter-spacing: -0.03em;
+
+      color: #2B2F35;
+    }
+    h2[value="line-2"] {
+      color: #FD815A;
+    }
+
+    .btn[value="try-it-free"] {
+      background: #FD815A;
+      border-radius: 8px;
+    }
+    .btn[value="learn-more"] {
+      background: #E6ECFF;
+      border-radius: 8px;
+      color: #4965CB;
+    }
+
+
+
 }

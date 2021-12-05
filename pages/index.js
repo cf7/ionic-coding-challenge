@@ -36,14 +36,26 @@ export default function Home() {
           <Nav.Link href="#">
             Features
           </Nav.Link>
+          <Nav.Link href="#">
+            Enterprise
+          </Nav.Link>
+          <Nav.Link href="#">
+            Company
+          </Nav.Link>
+          <Nav.Link href="#">
+            Sign in
+          </Nav.Link>
+          <Nav.Link href="#">
+            Download
+          </Nav.Link>
         </Navbar>
 
         <Row className="header">
           
           <Col className="copy">
             {/*<Row>*/}
-              <h2>Your best work.</h2>
-              <h2>Done together.</h2>
+              <h2 value="line-1">Your best work.</h2>
+              <h2 value="line-2">Done together.</h2>
               <p>
                 Build better a business, faster. Start sharing your work across your company—in realtime.
               </p>
@@ -93,7 +105,16 @@ export default function Home() {
         </Row>
 
         <Row className="cta">
-
+          <Col className="copy">
+            {/*<Row>*/}
+              <h2 value="line-1">Ready to start?</h2>
+              <h2 value="line-2">Sign up for free today.</h2>
+            {/*</Row>*/}
+            {/*<Row>*/}
+              <Button variant="primary" value="try-it-free">TRY IT FREE</Button>
+              <Button variant="primary" value="learn-more">LEARN MORE</Button>
+            {/*</Row>*/}
+          </Col>
         </Row>
 
         <Row className="footer">
