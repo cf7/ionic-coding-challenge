@@ -1,54 +1,67 @@
+// import '~bootstrap/scss/bootstrap';
+
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Head from 'next/head'
+import NextHead from 'next/head'
 import Feature from './components/Feature.js';
 // import Navbar from './components/Navbar.js';
+
+import Button from 'react-bootstrap/Button';
 
 export default function Home() {
   return (
     <div className="container">
-      <Head>
+      <NextHead>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </NextHead>
 
-      <main>
+      <Container>
+        <Navbar>
+          <Navbar.Brand href="#">
+            <img
+              src="/assets/logo.png"
+              width="40"
+              height="32"
+              // className="d-inline-block align-top"
+              alt="Ionic Challenge Logo"
+            />
+          </Navbar.Brand>
+          <Nav.Link href="#">
+            Product
+          </Nav.Link>
+          <Nav.Link href="#">
+            Features
+          </Nav.Link>
+        </Navbar>
 
         <Row className="header">
-          <Navbar>
-            <Navbar.Brand href="#home">
-              <img
-                src="/assets/logo.png"
-                width="40"
-                height="32"
-                // className="d-inline-block align-top"
-                alt="Ionic Challenge Logo"
-              />
-            </Navbar.Brand>
-            <Nav.Link>
-              Product
-            </Nav.Link>
-            <Nav.Link>
-              Features
-            </Nav.Link>
-          </Navbar>
+          
+          <Col className="copy">
+            {/*<Row>*/}
+              <h2>Your best work.</h2>
+              <h2>Done together.</h2>
+              <p>
+                Build better a business, faster. Start sharing your work across your company—in realtime.
+              </p>
+            {/*</Row>*/}
+            {/*<Row>*/}
+              <Button variant="primary" value="try-it-free">TRY IT FREE</Button>
+              <Button variant="primary" value="download">DOWNLOAD</Button>
+            {/*</Row>*/}
+          </Col>
 
-          <div className="copy">
-            <h2>Your best work. Done together.</h2>
-            <p>
-              Build better a business, faster. Start sharing your work across your company—in realtime.
-            </p>
-            <button>TRY IT FREE</button>
-            <button>DOWNLOAD</button>
-          </div>
+          <Col>
+            <img
+              src="/assets/image_stock.png"
+              width="620"
+              height="634"
+            />
+          </Col>
 
-          <img
-            src="/assets/image_stock.png"
-            width="620"
-            height="634"
-          />
         </Row>
 
         <Row className="feature-section">
@@ -79,7 +92,15 @@ export default function Home() {
           </Col>
         </Row>
 
-      </main>
+        <Row className="cta">
+
+        </Row>
+
+        <Row className="footer">
+
+        </Row>
+
+      </Container>
     </div>
   );
 }

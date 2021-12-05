@@ -1,5 +1,84 @@
+// @import '~bootstrap/scss/bootstrap';
+div.container {
+  background: #F9FAFD;
+  mix-blend-mode: normal;
+}
+
+div.header {
+  // display: inline-flex;
+
+  .copy {
+    // display: inline-flex;
+    width: 50%;
+    // flex-wrap: nowrap;
+    // flex-direction: col;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      // display: inline-block;
+      align-self: center;
+      // height: 110px;
+      // width: 514px;
+      // left: 0px;
+      // top: 0px;
+      // border-radius: nullpx;
+
+      margin: 0px;
+
+      // left: 0%;
+      // right: 0%;
+      // top: 0%;
+      // bottom: 62.07%;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 100%;
+      /* or 64px */
+
+      // display: flex;
+      // align-items: center;
+      letter-spacing: -0.03em;
+
+      color: #2B2F35;
+    }
+
+    p {
+      // display: block !important;
+      margin: 0px;
+
+      left: 0%;
+      right: 0%;
+      top: 51.72%;
+      bottom: 31.72%;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 160%;
+      /* or 32px */
+
+      // display: flex;
+      align-items: center;
+
+      color: #535C68;
+    }
+    .btn[value="try-it-free"] {
+      background: #FD815A;
+      border-radius: 8px;
+    }
+    .btn[value="download"] {
+      background: #E6ECFF;
+      border-radius: 8px;
+      color: #4965CB;
+    }
+  }
+}
+
 div.feature-section {
-  
+
 }
 
 
