@@ -78,7 +78,7 @@ export default function Home() {
         </Row>
 
         <Row className="feature-section">
-          <Col>
+          <Col className="feature-col">
             <Row className="feature-section-header">
               <p className="feature-section-overline">Features</p>
               <h3>A better way to work together</h3>
