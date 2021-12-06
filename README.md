@@ -12,5 +12,5 @@ background: #5A7EFD;
 mix-blend-mode: overlay; // <-- adjustment
 ```
 For some reason, setting `mix-blend-mode: soft-light` during development gave the image a very different tone than
-the mockup's depiction. So I made a little adjustment and found that `mix-blend-mode: overlay` brought the image 
-closer to the mockup's example.
+the mockup's depiction, so after trying all of the modes, I found that `mix-blend-mode: hard-light` brought the image 
+closest to the mockup's example.
