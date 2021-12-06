@@ -124,31 +124,38 @@ div.header {
 }
 
 div.feature-section {
-
+  max-width: 1400px;
+  max-height: 753px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-
+.col {
+  // display: inline-block;
+  // text-align: center;
 div.feature-section-header {
-  // position: absolute;
-  width: 692px;
+  // display: inline-flex;
+  // text-align: center;
   align-items: center;
-  // height: 135px;
-  // left: 265px;
-  // top: 0px;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 32px;
   p.feature-section-overline {
     // position: absolute;
-    margin: 0px;
+    display: inline-block;
+    margin: 0px 0px 4px 0px;
 
-    // width: 112px;
-    height: 12px;
-    left: 290px;
-    top: -2px;
+    max-width: 112px;
+    // max-height: 19px;
+    // left: 290px;
+    // top: -2px;
 
     // font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    // line-height: 19px;
     // display: flex;
     align-items: center;
     text-align: center;
@@ -159,18 +166,19 @@ div.feature-section-header {
   }
 
   h3 {
-    margin: 0px;
+    margin: 4px 0px 8px 0px;
 
-    left: 0%;
-    right: 0%;
-    top: 22.22%;
-    bottom: 56.3%;
-
+    // left: 0%;
+    // right: 0%;
+    // top: 22.22%;
+    // bottom: 56.3%;
+    max-width: 629px;
+    // max-height: 40px;
     // font-family: Inter;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
-    line-height: 100%;
+    // line-height: 100%;
     /* or 40px */
 
     // display: flex;
@@ -181,13 +189,15 @@ div.feature-section-header {
     color: #2B2F35;
   }
   p.feature-section-description {
-    margin: 0px;
+    margin: 8px 0px 0px 0px;
 
-    left: 0%;
-    right: 0%;
-    top: 64.44%;
-    bottom: 0%;
+    // left: 0%;
+    // right: 0%;
+    // top: 64.44%;
+    // bottom: 0%;
 
+    max-width: 692px;
+    // max-height: 48px;
     // font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -202,7 +212,7 @@ div.feature-section-header {
     color: #535C68;
   }
 }
-
+}
 div.feature-grid {
   display: inline-flex;
 }
@@ -226,11 +236,25 @@ div.feature {
   align-items: top;
 
   color: #2B2F35;
+  img {
+    margin-right: 12px;
+  }
   div.feature-content {
-    margin-left: 5px;
+    margin-left: 12px;
 
     h4 {
-      margin: 0px;
+      margin: 0px 0px 24px 0px;
+      line-height: 0.9;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      // line-height: 160%;
+      /* or 32px */
+
+      // display: flex;
+      // align-items: center;
+
+      color: #2B2F35;
     }
 
     p {
