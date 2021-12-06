@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Form from 'react-bootstrap/Form';
 import NextHead from 'next/head'
 import Feature from './components/Feature.js';
 // import Navbar from './components/Navbar.js';
@@ -12,6 +13,8 @@ import Feature from './components/Feature.js';
 import Button from 'react-bootstrap/Button';
 
 export default function Home() {
+
+
   return (
     <Container>
       <NextHead>
@@ -144,6 +147,24 @@ export default function Home() {
                   <a href="#">Jobs</a>
                 </li>
               </ul>
+            </Col>
+            <Col>
+              <h2>Subscribe to our newsletter</h2>
+              <Form className="subscription-form">
+                <Form.Label>
+                  Get the latest news, articles, and resources, sent to your inbox every week.
+                </Form.Label>
+                <div className="subscription-inputs">
+                <Form.Control 
+                  id="subscription-email" 
+                  type="email"
+                  placeholder="Email"
+                >
+                </Form.Control>
+                <Button type="submit">Subscribe</Button>
+
+                </div>
+              </Form>
             </Col>
           </Row>
           <div className="footer-line"></div>
