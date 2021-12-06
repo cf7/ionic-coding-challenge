@@ -130,9 +130,9 @@ div.feature-section {
   max-width: 1400px;
   max-height: 753px;
   height: 100%;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
-  padding: 0px 106px 0px 88px;
+  padding: 106px 88px;
 }
 
 .feature-col {
@@ -269,10 +269,10 @@ div.feature {
     p {
       margin: 0px;
 
-      left: 5.98%;
-      right: 51.37%;
-      top: 15.7%;
-      bottom: 59.5%;
+      // left: 5.98%;
+      // right: 51.37%;
+      // top: 15.7%;
+      // bottom: 59.5%;
 
       // font-family: Inter;
       font-style: normal;
