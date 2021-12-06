@@ -63,8 +63,8 @@ export default function Home() {
               </p>
             {/*</Row>*/}
             <Row>
-              <Button variant="primary" value="try-it-free">TRY IT FREE</Button>
-              <Button variant="primary" value="download">DOWNLOAD</Button>
+              <Button variant="primary" value="try-it-free">Try it free</Button>
+              <Button variant="primary" value="download">Download</Button>
             </Row>
             </Row>
           </Col>
@@ -106,15 +106,17 @@ export default function Home() {
         </Row>
 
         <Row className="cta">
-          <Col className="copy">
-            {/*<Row>*/}
+          <Col>
+            <Row className="cta-copy">
               <h2 value="line-1">Ready to start?</h2>
               <h2 value="line-2">Sign up for free today.</h2>
-            {/*</Row>*/}
-            {/*<Row>*/}
-              <Button variant="primary" value="try-it-free">TRY IT FREE</Button>
-              <Button variant="primary" value="learn-more">LEARN MORE</Button>
-            {/*</Row>*/}
+            </Row>
+          </Col>
+          <Col>
+            <Row className="cta-buttons">
+              <Button variant="primary" value="try-it-free">Try it free</Button>
+              <Button variant="primary" value="learn-more">Learn more</Button>
+            </Row>
           </Col>
         </Row>
 

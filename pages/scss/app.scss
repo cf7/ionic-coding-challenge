@@ -95,6 +95,7 @@ div.header {
         background: #FD815A;
         border: unset;
         max-width: 156px;
+        text-transform: uppercase;
       }
       .btn[value="download"] {
         margin-left: 8px;
@@ -102,6 +103,7 @@ div.header {
         border: unset;
         color: #4965CB;
         max-width: 156px;
+        text-transform: uppercase;
       }
     }
   }
@@ -257,16 +259,31 @@ div.feature {
 div.cta {
   background: #F9FAFD;
   mix-blend-mode: normal;
+  max-width: 1400px;
+  max-height: 224px;
+  .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // max-width: inherit;
+    // max-height: inherit;
+    height: 224px;
+    // text-align: center;
+  }
+  div.cta-copy {
+    display: inline-flex;
+   //  flex-wrap: norwap;
+  
   h2 {
     // display: inline-block;
-    align-self: center;
+    // align-self: center;
     // height: 110px;
     // width: 514px;
     // left: 0px;
     // top: 0px;
     // border-radius: nullpx;
 
-    margin: 0px;
+    margin: 0px 0px 0px 88px;
 
     // left: 0%;
     // right: 0%;
@@ -276,12 +293,12 @@ div.cta {
     // font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 40px;
     line-height: 100%;
-    /* or 64px */
+    /* or 40px */
 
-    // display: flex;
-    // align-items: center;
+    display: flex;
+    align-items: center;
     letter-spacing: -0.03em;
 
     color: #2B2F35;
@@ -289,15 +306,27 @@ div.cta {
   h2[value="line-2"] {
     color: #FD815A;
   }
-
-  .btn[value="try-it-free"] {
-    background: #FD815A;
-    border: unset;
   }
-  .btn[value="learn-more"] {
-    background: #E6ECFF;
-    border: unset;
-    color: #4965CB;
+  div.cta-buttons {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    .btn[value="try-it-free"] {
+      background: #FD815A;
+      border: unset;
+      max-width: 152px;
+      max-height: 52px;
+      text-transform: uppercase;
+      margin-right: 8px;
+    }
+    .btn[value="learn-more"] {
+      background: #E6ECFF;
+      border: unset;
+      max-width: 152px;
+      max-height: 52px;
+      color: #4965CB;
+      text-transform: uppercase;
+      margin-left: 8px;
+    }
   }
 }
 
