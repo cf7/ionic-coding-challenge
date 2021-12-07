@@ -8,6 +8,57 @@ div.container {
   margin: 0px;
 }
 
+
+
+nav.navbar {
+  z-index: 10;
+  position: absolute;
+  // width: 100%;
+  padding: 37px 88px 0px 88px;
+  a.nav-link {
+    // max-width: 58px;
+    padding: 0px;
+    margin: 0px 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    // display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #7B8798;
+  }
+  a.nav-link:nth-of-type(6) {
+    // position: relative;
+    // display: none;
+    // float: right;
+    // max-width: 594px;
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+  a.nav-link:nth-of-type(7) {
+    margin-right: 0px;
+    font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+  }
+}
+
 div.header {
   // display: inline-flex;
   // flex-wrap: nowrap;

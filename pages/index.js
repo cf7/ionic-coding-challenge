@@ -22,7 +22,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </NextHead>
 
-        <Navbar>
+        
+
+        <Row className="header">
+          <Navbar>
           <Navbar.Brand href="#">
             <img
               src="/assets/logo.png"
@@ -51,9 +54,6 @@ export default function Home() {
             Download
           </Nav.Link>
         </Navbar>
-
-        <Row className="header">
-          
           <Col className="header-copy">
             <Row>
               <h2 value="line-1">Your best work.</h2>
