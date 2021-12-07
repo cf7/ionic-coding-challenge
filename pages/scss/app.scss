@@ -3,6 +3,11 @@ div.container {
   height: 634px;
   padding: 0px;
   margin: 0px;
+  button.btn {
+    &:hover {
+      filter: brightness(0.7);
+    }
+  }
 }
 
 
@@ -11,6 +16,11 @@ nav.navbar {
   z-index: 10;
   position: absolute;
   padding: 37px 88px 0px 88px;
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   a.nav-link {
     padding: 0px;
     margin: 0px 20px;
@@ -258,8 +268,8 @@ div.cta {
   }
   div.cta-copy {
     display: inline-flex;
-  margin: 0px;
-   padding: 0px;
+    margin: 0px;
+    padding: 0px;
     h2 {
 
       margin: 0px;
@@ -279,7 +289,7 @@ div.cta {
     h2[value="line-2"] {
       color: #FD815A;
     }
-    }
+  }
   div.cta-buttons {
     display: inline-flex;
     flex-wrap: nowrap;
@@ -332,13 +342,16 @@ div.footer {
       color: #8F9AAA;
     }
     ul {
-        list-style-type: none;
-        align-items: left;
-        padding: 0px;
+      list-style-type: none;
+      align-items: left;
+      padding: 0px;
       li {
         padding: 14px 0px 14px 0px;
         a {
           text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
           font-weight: normal;
           font-size: 16px;
           line-height: 160%; /* or 26px */
@@ -367,17 +380,14 @@ div.footer {
           max-width: 400px;
           max-height: 52px;
           margin-right: 6px;
-
-          &::placeholder {
-            opacity: 0.5;
-          }
-
           font-weight: normal;
           font-size: 16px;
-          line-height: 160%;
-          /* or 26px */
-
-          color: #C1C8D6;
+          line-height: 160%; /* or 26px */
+          
+          &::placeholder {
+            opacity: 0.5;
+            color: #C1C8D6;
+          }
         }
         button {
           max-width: 144px;
@@ -429,8 +439,8 @@ div.footer {
       text-align: right;
       max-width: 50%;
       padding-right: 0px;
-      img {
-        padding-left: 25px;
+      a {
+        margin-left: 25px;
       }
     }
   }

@@ -41,7 +41,7 @@ export default class Footer extends React.Component {
                   placeholder="Email"
                 >
                 </Form.Control>
-                <Button type="submit">Subscribe</Button>
+                <Button type="button">Subscribe</Button>
               </div>
             </Form>
           </Col>
@@ -51,7 +51,7 @@ export default class Footer extends React.Component {
           <p>© 2021 Acme, Inc. All rights reserved.</p>
           <div>
             {
-              this.props.logos.map(logo => <img src={logo} />)
+              this.props.logos.map(logo => <a href="#"><img src={logo} /></a>)
             }
           </div>
         </Row>
