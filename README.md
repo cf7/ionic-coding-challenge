@@ -24,7 +24,7 @@ font-family: Inter;
 ```
 My adjustment
 ```
-// font-family: Inter, sans-serif; <-- adjustment
+font-family: Inter, sans-serif; // <-- adjustment
 ```
 Using `font-family: Inter` as the mockup instructs makes the app render serif font, so I had to manually designate `sans-serif`
 to get the style that the Figma Mockup depicts.
