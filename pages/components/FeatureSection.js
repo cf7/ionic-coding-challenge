@@ -6,6 +6,18 @@ import Feature from './Feature.js';
 export default class FeatureSection extends React.Component {
   constructor(props) {
     super(props);
+
+    this.features = this.props.features.map(
+      function (feat) {
+        return (
+          <Feature
+              imgURL={feat.imgURL}
+              header={feat.header}
+              content={feat.content}
+            />
+        );
+      }
+    );
   }
 
   render () {
@@ -22,32 +34,12 @@ export default class FeatureSection extends React.Component {
           <Row className="feature-grid">
             <Col>
               {
-                this.props.features.map((feat,i) => {
-                  if ((i+1) % 2 != 0) {
-                    return (
-                      <Feature
-                          imgURL={feat.imgURL}
-                          header={feat.header}
-                          content={feat.content}
-                        />
-                    );
-                  }
-                })
+                this.features.filter((_,i) => (i+1) % 2 != 0)
               }
             </Col>
             <Col>
               {
-                this.props.features.map((feat,i) => {
-                  if ((i+1) % 2 == 0) {
-                    return (
-                      <Feature
-                          imgURL={feat.imgURL}
-                          header={feat.header}
-                          content={feat.content}
-                        />
-                    );
-                  }
-                })
+                this.features.filter((_,i) => (i+1) % 2 == 0)
               }
             </Col>
           </Row>

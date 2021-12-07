@@ -43,17 +43,10 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </NextHead>
-
-    
       <Header navLinks={navLinks} />
-        
-
       <FeatureSection features={features} />
-
       <CTA />
-
       <Footer footerLinks={footerLinks} logos={logos} />
-
-      </Container>
+    </Container>
   );
 }
