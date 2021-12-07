@@ -183,7 +183,7 @@ div.feature-section {
   height: 100%;
   // align-items: center;
   justify-content: center;
-  padding: 106px 88px;
+  padding: 106px 88px 60px 88px;
 }
 
 .feature-col {
@@ -285,7 +285,8 @@ div.feature {
   // right: 51.37%;
   // top: 0%;
   // bottom: 94.21%;
-
+  margin-bottom: 46px;
+  
   // font-family: Inter;
   font-style: normal;
   font-weight: 600;
