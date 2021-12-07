@@ -21,9 +21,7 @@ export default class Footer extends React.Component {
                   <h2>{header}</h2>
                   <ul>
                     {
-                      this.props.footerLinks[header].map(link => {
-                        return <li><a href="#">{link}</a></li>;
-                      })
+                      this.props.footerLinks[header].map(link => <li><a href="#">{link}</a></li>)
                     }
                   </ul>
                 </Col>
@@ -37,14 +35,13 @@ export default class Footer extends React.Component {
                 Get the latest news, articles, and resources, sent to your inbox every week.
               </Form.Label>
               <div className="subscription-inputs">
-              <Form.Control 
-                id="subscription-email" 
-                type="email"
-                placeholder="Email"
-              >
-              </Form.Control>
-              <Button type="submit">Subscribe</Button>
-
+                <Form.Control 
+                  id="subscription-email" 
+                  type="email"
+                  placeholder="Email"
+                >
+                </Form.Control>
+                <Button type="submit">Subscribe</Button>
               </div>
             </Form>
           </Col>
@@ -53,11 +50,9 @@ export default class Footer extends React.Component {
         <Row className="company-info">
           <p>© 2021 Acme, Inc. All rights reserved.</p>
           <div>
-          {
-            this.props.logos.map(logo => {
-              return <img src={logo} />
-            })
-          }
+            {
+              this.props.logos.map(logo => <img src={logo} />)
+            }
           </div>
         </Row>
       </Row>

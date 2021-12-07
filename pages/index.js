@@ -42,7 +42,7 @@ export default function Home() {
     },
   ];
   const footerLinks = {
-    "Solutions": ["Screen Sharing", "Marketing", "Commerce"],
+    "Solutions": ["Screen Sharing", "Marketing", "Commerce", "Insights"],
     "Resources": ["Pricing", "Documentation", "Guides", "API Status"],
     "Company": ["About", "Blog", "Jobs", "Press"],
     "Help": ["Support", "Training", "Tutorials"]
