@@ -1,0 +1,56 @@
+div.cta {
+  background: #F9FAFD;
+  max-height: 224px;
+  padding: 0px 88px;
+  margin: 0px;
+
+  .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 224px;
+    padding: 0px;
+  }
+
+  div.cta-copy {
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+
+    h2 {
+      margin: 0px;
+      padding: 0px;
+
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 100%; /* or 40px */
+      letter-spacing: -0.03em;
+
+      color: #2B2F35;
+    }
+
+    h2[value="line-2"] {
+      color: #FD815A;
+    }
+  }
+
+  div.cta-buttons {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+    margin: 0px;
+    width: 100%;
+
+    .btn[value="try-it-free"] {
+      background: #FD815A;
+      margin-right: 8px;
+    }
+
+    .btn[value="learn-more"] {
+      background: #E6ECFF;
+      margin-left: 8px;
+
+      color: #4965CB;
+    }
+  }
+}

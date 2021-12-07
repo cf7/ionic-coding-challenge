@@ -1,0 +1,121 @@
+div.footer {
+  background: #333B49;
+  padding: 66px 88px;
+  margin: 0px;
+
+  div.footer-links {
+    margin: 0px 0px 72px 0px;
+    padding: 0px;
+
+    .col:first-of-type {
+      padding-left: 0px;
+    }
+
+    .col:last-of-type {
+      padding-right: 0px;
+      min-width: 387px;
+    }
+
+    h2 {
+      margin-bottom: 14px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 160%; /* or 22px */
+      align-items: left;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+
+      color: #8F9AAA;
+    }
+
+    ul {
+      list-style-type: none;
+      align-items: left;
+      padding: 0px;
+
+      li {
+        padding: 14px 0px 14px 0px;
+
+        a {
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+
+          font-size: 16px;
+          line-height: 160%; /* or 26px */
+          align-items: left;
+          color: #C1C8D6;
+        }
+      }
+    }
+
+    form.subscription-form {
+      display: inline-block;
+      margin-top: 14px;
+      font-size: 16px;
+      line-height: 160%; /* or 26px */
+
+      label.form-label {
+        margin-bottom: 18px;
+        padding: 0px;
+        
+
+        color: #C1C8D6;
+      }
+
+      div.subscription-inputs {
+        display: inline-flex;
+        margin-top: 18px;
+        justify-content: right;
+        width: 100%;
+
+        #subscription-email {
+          max-width: 400px;
+          max-height: 52px;
+          margin-right: 6px;
+          
+          &::placeholder {
+            opacity: 0.5;
+            color: #C1C8D6;
+          }
+        }
+
+        button {
+          background: #FD815A;
+          margin-left: 6px;
+
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+
+  div.footer-line {
+    max-width: 1224px;
+    border: 1px solid #4E5767;
+  }
+  div.company-info {
+    flex-wrap: nowrap;
+    margin: 31px 0px 0px 0px;
+    padding: 0px;
+
+    p {
+      max-width: 50%;
+      padding: 0px;
+
+      color: #C1C8D6;
+    }
+
+    div {
+      text-align: right;
+      max-width: 50%;
+      padding-right: 0px;
+      
+      a {
+        margin-left: 25px;
+      }
+    }
+  }
+}

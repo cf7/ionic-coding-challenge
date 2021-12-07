@@ -1,0 +1,39 @@
+nav.navbar {
+  z-index: 10;
+  position: absolute;
+  padding: 37px 88px 0px 88px;
+
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  a.nav-link {
+    padding: 0px;
+    margin: 0px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #7B8798;
+  }
+
+  a.nav-link:nth-of-type(6) {
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+  }
+
+  a.nav-link:nth-of-type(7) {
+    margin-right: 0px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+  }
+}
