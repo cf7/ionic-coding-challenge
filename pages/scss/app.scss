@@ -4,12 +4,20 @@ div.container {
   padding: 0px;
   margin: 0px;
   button.btn {
+    max-width: 156px;
+    max-height: 52px;
+    border: unset;
+    text-transform: uppercase;
+    font: 16px, Inter, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 2.0;
+    // font-size: 16px;
     &:hover {
       filter: brightness(0.7);
     }
   }
 }
-
 
 
 nav.navbar {
@@ -27,8 +35,6 @@ nav.navbar {
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    align-items: center;
-    text-align: center;
 
     color: #7B8798;
   }
@@ -37,9 +43,6 @@ nav.navbar {
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
-    align-items: center;
-    text-align: center;
-
     color: #FFFFFF;
   }
   a.nav-link:nth-of-type(7) {
@@ -47,9 +50,6 @@ nav.navbar {
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
-    align-items: center;
-    text-align: center;
-
     color: #FFFFFF;
   }
 }
@@ -66,20 +66,13 @@ div.header {
     .row {
       margin: 0;
       max-width: 514px;
-
       h2 {
-
         margin: 0px;
-        padding-left: 0px;
-        
-
+        padding: 0px;
         font-weight: bold;
         font-size: 64px;
-        line-height: 100%;
-        /* or 64px */
-
+        line-height: 100%; /* or 64px */
         letter-spacing: -0.03em;
-
         color: #2B2F35;
       }
       h2[value="line-2"] {
@@ -88,16 +81,10 @@ div.header {
       p {
         display: flex;
         margin: 40px 0px 40px 0px;
-        padding-left: 0px;
-
-
-        font-weight: normal;
+        padding: 0px;
         font-size: 20px;
-        line-height: 160%;
-        /* or 32px */
-
+        line-height: 160%; /* or 32px */
         align-items: center;
-
         color: #535C68;
       }
       .row {
@@ -106,17 +93,11 @@ div.header {
         .btn[value="try-it-free"] {
           margin-right: 8px;
           background: #FD815A;
-          border: unset;
-          max-width: 156px;
-          text-transform: uppercase;
         }
         .btn[value="download"] {
           margin-left: 8px;
           background: #E6ECFF;
-          border: unset;
           color: #4965CB;
-          max-width: 156px;
-          text-transform: uppercase;
         }
       }
     }
@@ -144,7 +125,6 @@ div.feature-section {
   margin: 0px;
 }
 
-.feature-col {
 div.feature-section-header {
   align-items: center;
   justify-content: center;
@@ -196,7 +176,7 @@ div.feature-section-header {
     color: #535C68;
   }
 }
-}
+
 div.feature-grid {
   display: inline-flex;
   .col {
@@ -298,19 +278,11 @@ div.cta {
     width: 100%;
     .btn[value="try-it-free"] {
       background: #FD815A;
-      border: unset;
-      max-width: 152px;
-      max-height: 52px;
-      text-transform: uppercase;
       margin-right: 8px;
     }
     .btn[value="learn-more"] {
       background: #E6ECFF;
-      border: unset;
-      max-width: 152px;
-      max-height: 52px;
       color: #4965CB;
-      text-transform: uppercase;
       margin-left: 8px;
     }
   }
@@ -390,21 +362,8 @@ div.footer {
           }
         }
         button {
-          max-width: 144px;
-          max-height: 52px;
           margin-left: 6px;
           background: #FD815A;
-          border: unset;
-          font-weight: bold;
-          font-size: 16px;
-          line-height: 19px;
-          display: flex;
-          align-items: center;
-          text-align: center;
-          letter-spacing: 0.1em;
-          text-transform: uppercase;
-
-          /* binary / white 0 */
 
           color: #FFFFFF;
         }

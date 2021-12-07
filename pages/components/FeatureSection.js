@@ -23,7 +23,7 @@ export default class FeatureSection extends React.Component {
   render () {
     return (
       <Row className="feature-section">
-        <Col className="feature-col">
+        <Col>
           <Row className="feature-section-header">
             <p className="feature-section-overline">Features</p>
             <h3>A better way to work together</h3>
