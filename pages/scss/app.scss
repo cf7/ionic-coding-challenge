@@ -3,6 +3,8 @@ div.container {
   height: 634px;
   padding: 0px;
   margin: 0px;
+  font-family: Inter, sans-serif;
+
   button.btn {
     max-width: 156px;
     max-height: 52px;
@@ -12,23 +14,24 @@ div.container {
     font-weight: bold;
     letter-spacing: 0.1em;
     line-height: 2.0;
-    // font-size: 16px;
+
     &:hover {
       filter: brightness(0.7);
     }
   }
 }
 
-
 nav.navbar {
   z-index: 10;
   position: absolute;
   padding: 37px 88px 0px 88px;
+
   a {
     &:hover {
       text-decoration: underline;
     }
   }
+
   a.nav-link {
     padding: 0px;
     margin: 0px 20px;
@@ -38,6 +41,7 @@ nav.navbar {
 
     color: #7B8798;
   }
+
   a.nav-link:nth-of-type(6) {
     margin-left: auto;
     font-weight: 600;
@@ -45,6 +49,7 @@ nav.navbar {
     line-height: 18px;
     color: #FFFFFF;
   }
+
   a.nav-link:nth-of-type(7) {
     margin-right: 0px;
     font-weight: 600;
@@ -58,6 +63,7 @@ div.header {
   background: #F9FAFD;
   padding: 0px;
   margin: 0px;
+
   .header-copy {
     display: flex;
     align-items: center;
@@ -66,6 +72,7 @@ div.header {
     .row {
       margin: 0;
       max-width: 514px;
+
       h2 {
         margin: 0px;
         padding: 0px;
@@ -75,9 +82,11 @@ div.header {
         letter-spacing: -0.03em;
         color: #2B2F35;
       }
+
       h2[value="line-2"] {
         color: #FD815A;
       }
+
       p {
         display: flex;
         margin: 40px 0px 40px 0px;
@@ -85,15 +94,19 @@ div.header {
         font-size: 20px;
         line-height: 160%; /* or 32px */
         align-items: center;
+
         color: #535C68;
       }
+
       .row {
         flex-wrap: nowrap;
         padding: 0px;
+
         .btn[value="try-it-free"] {
           margin-right: 8px;
           background: #FD815A;
         }
+
         .btn[value="download"] {
           margin-left: 8px;
           background: #E6ECFF;
@@ -102,6 +115,7 @@ div.header {
       }
     }
   }
+
   .header-image {
     padding: 0px;
     max-width: 620px;
@@ -109,6 +123,7 @@ div.header {
     left: 0px;
     top: 0px;
     background-color: #5A7EFD;
+
     img {
       padding: 0px;
       mix-blend-mode: hard-light;
@@ -119,27 +134,26 @@ div.header {
 div.feature-section {
   max-width: 1400px;
   max-height: 753px;
-  height: 100%;
-  justify-content: center;
   padding: 106px 88px 60px 88px;
   margin: 0px;
+  .col {
+    max-height: inherit;
+    margin: 0px;
+  }
 }
 
 div.feature-section-header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 32px;
+  margin: 0px 0px 56px 0px;
+
   p.feature-section-overline {
     display: inline-block;
     margin: 0px 0px 4px 0px;
-
     max-width: 112px;
-
     font-weight: 500;
     font-size: 16px;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 
@@ -151,9 +165,7 @@ div.feature-section-header {
 
     max-width: 629px;
     font-weight: bold;
-    font-size: 40px;
-    /* or 40px */
-
+    font-size: 40px; /* or 40px */
     align-items: center;
     text-align: center;
     letter-spacing: -0.03em;
@@ -163,11 +175,10 @@ div.feature-section-header {
   p.feature-section-description {
     margin: 8px 0px 0px 0px;
 
-
     max-width: 692px;
     font-weight: normal;
     font-size: 20px;
-    line-height: 150%;
+    line-height: 160%;
     /* or 30px */
 
     align-items: center;
@@ -179,9 +190,12 @@ div.feature-section-header {
 
 div.feature-grid {
   display: inline-flex;
+  margin: 0px;
+
   .col {
     padding: 0px;
   }
+
   .col:first-of-type {
     margin-right: 33px;
   }
@@ -190,17 +204,14 @@ div.feature-grid {
 div.feature {
   display: inline-flex;
   margin-bottom: 46px;
-  
-  font-weight: 600;
-  font-size: 20px;
-  /* or 32px */
-
   align-items: top;
 
   color: #2B2F35;
+
   img {
     margin-right: 12px;
   }
+
   div.feature-content {
     margin-left: 12px;
 
@@ -208,24 +219,15 @@ div.feature {
       margin: 0px 0px 24px 0px;
       line-height: 0.9;
       font-weight: 600;
-      font-size: 20px;
-      /* or 32px */
-
+      font-size: 20px; /* or 32px */
 
       color: #2B2F35;
     }
 
     p {
       margin: 0px;
-
-
-      font-weight: normal;
       font-size: 16px;
-      line-height: 160%;
-      /* or 26px */
-
-      display: flex;
-      align-items: center;
+      line-height: 160%; /* or 26px */
 
       color: #535C68;
     }
@@ -234,11 +236,10 @@ div.feature {
 
 div.cta {
   background: #F9FAFD;
-  mix-blend-mode: normal;
-  max-width: 1400px;
   max-height: 224px;
   padding: 0px 88px;
   margin: 0px;
+
   .col {
     display: flex;
     align-items: center;
@@ -246,44 +247,46 @@ div.cta {
     height: 224px;
     padding: 0px;
   }
+
   div.cta-copy {
     display: inline-flex;
     margin: 0px;
     padding: 0px;
-    h2 {
 
+    h2 {
       margin: 0px;
-      padding: 0px !important;
+      padding: 0px;
 
       font-weight: bold;
       font-size: 40px;
-      line-height: 100%;
-      /* or 40px */
-
-      display: flex;
-      align-items: center;
+      line-height: 100%; /* or 40px */
       letter-spacing: -0.03em;
 
       color: #2B2F35;
     }
+
     h2[value="line-2"] {
       color: #FD815A;
     }
   }
+
   div.cta-buttons {
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: right;
     margin: 0px;
     width: 100%;
+
     .btn[value="try-it-free"] {
       background: #FD815A;
       margin-right: 8px;
     }
+
     .btn[value="learn-more"] {
       background: #E6ECFF;
-      color: #4965CB;
       margin-left: 8px;
+
+      color: #4965CB;
     }
   }
 }
@@ -292,17 +295,20 @@ div.footer {
   background: #333B49;
   padding: 66px 88px;
   margin: 0px;
+
   div.footer-links {
     margin: 0px 0px 72px 0px;
     padding: 0px;
-    width: 100%;
+
     .col:first-of-type {
       padding-left: 0px;
     }
+
     .col:last-of-type {
       padding-right: 0px;
       min-width: 387px;
     }
+
     h2 {
       margin-bottom: 14px;
       font-weight: 600;
@@ -311,20 +317,25 @@ div.footer {
       align-items: left;
       letter-spacing: 0.1em;
       text-transform: uppercase;
+
       color: #8F9AAA;
     }
+
     ul {
       list-style-type: none;
       align-items: left;
       padding: 0px;
+
       li {
         padding: 14px 0px 14px 0px;
+
         a {
           text-decoration: none;
+
           &:hover {
             text-decoration: underline;
           }
-          font-weight: normal;
+
           font-size: 16px;
           line-height: 160%; /* or 26px */
           align-items: left;
@@ -332,72 +343,69 @@ div.footer {
         }
       }
     }
+
     form.subscription-form {
       display: inline-block;
       margin-top: 14px;
+      font-size: 16px;
+      line-height: 160%; /* or 26px */
+
       label.form-label {
         margin-bottom: 18px;
         padding: 0px;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 160%; /* or 26px */
+        
+
         color: #C1C8D6;
       }
+
       div.subscription-inputs {
         display: inline-flex;
         margin-top: 18px;
         justify-content: right;
         width: 100%;
+
         #subscription-email {
           max-width: 400px;
           max-height: 52px;
           margin-right: 6px;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 160%; /* or 26px */
           
           &::placeholder {
             opacity: 0.5;
             color: #C1C8D6;
           }
         }
+
         button {
-          margin-left: 6px;
           background: #FD815A;
+          margin-left: 6px;
 
           color: #FFFFFF;
         }
       }
     }
   }
+
   div.footer-line {
     max-width: 1224px;
-    height: 0px;
-    left: 0px;
-    top: 0px;
     border: 1px solid #4E5767;
   }
   div.company-info {
     flex-wrap: nowrap;
     margin: 31px 0px 0px 0px;
     padding: 0px;
-    p {
 
+    p {
       max-width: 50%;
       padding: 0px;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 160%;
-      /* or 26px */
-
-      align-items: center;
 
       color: #C1C8D6;
     }
+
     div {
       text-align: right;
       max-width: 50%;
       padding-right: 0px;
+      
       a {
         margin-left: 25px;
       }
