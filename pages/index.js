@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <Container>
       <NextHead>
-        <title>Ionic Challenge</title>
+        <title>Landing Page</title>
         <link rel="icon" href="/favicon.ico" />
       </NextHead>
       <Header navLinks={navLinks} />
