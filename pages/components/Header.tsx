@@ -25,8 +25,8 @@ export const Header = ({ navLinks }) => {
       </Navbar>
       <Col className="header-copy">
         <Row>
-          <h2 value="line-1">Your best work.</h2>
-          <h2 value="line-2">Done together.</h2>
+          <h2>Your best work.</h2>
+          <h2>Done together.</h2>
           <p>
             Build better a business, faster. Start sharing your work across your
             company—in realtime.

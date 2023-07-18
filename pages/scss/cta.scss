@@ -1,5 +1,5 @@
 div.cta {
-  background: #F9FAFD;
+  background: #f9fafd;
   max-height: 224px;
   padding: 0px 88px;
   margin: 0px;
@@ -26,11 +26,11 @@ div.cta {
       line-height: 100%; /* or 40px */
       letter-spacing: -0.03em;
 
-      color: #2B2F35;
+      color: #2b2f35;
     }
 
-    h2[value="line-2"] {
-      color: #FD815A;
+    h2:nth-child(2) {
+      color: #fd815a;
     }
   }
 
@@ -42,15 +42,15 @@ div.cta {
     width: 100%;
 
     .btn[value="try-it-free"] {
-      background: #FD815A;
+      background: #fd815a;
       margin-right: 8px;
     }
 
     .btn[value="learn-more"] {
-      background: #E6ECFF;
+      background: #e6ecff;
       margin-left: 8px;
 
-      color: #4965CB;
+      color: #4965cb;
     }
   }
 }

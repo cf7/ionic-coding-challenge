@@ -1,5 +1,5 @@
 div.header {
-  background: #F9FAFD;
+  background: #f9fafd;
   padding: 0px;
   margin: 0px;
 
@@ -19,11 +19,11 @@ div.header {
         font-size: 64px;
         line-height: 100%; /* or 64px */
         letter-spacing: -0.03em;
-        color: #2B2F35;
+        color: #2b2f35;
       }
 
-      h2[value="line-2"] {
-        color: #FD815A;
+      h2:nth-child(2) {
+        color: #fd815a;
       }
 
       p {
@@ -34,7 +34,7 @@ div.header {
         line-height: 160%; /* or 32px */
         align-items: center;
 
-        color: #535C68;
+        color: #535c68;
       }
 
       .row {
@@ -43,13 +43,13 @@ div.header {
 
         .btn[value="try-it-free"] {
           margin-right: 8px;
-          background: #FD815A;
+          background: #fd815a;
         }
 
         .btn[value="download"] {
           margin-left: 8px;
-          background: #E6ECFF;
-          color: #4965CB;
+          background: #e6ecff;
+          color: #4965cb;
         }
       }
     }
@@ -61,7 +61,7 @@ div.header {
     max-height: 634px;
     left: 0px;
     top: 0px;
-    background-color: #5A7EFD;
+    background-color: #5a7efd;
 
     img {
       padding: 0px;

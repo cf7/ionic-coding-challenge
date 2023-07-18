@@ -8,8 +8,8 @@ export const CTA = () => {
     <Row className="cta">
       <Col>
         <Row className="cta-copy">
-          <h2 value="line-1">Ready to start?</h2>
-          <h2 value="line-2">Sign up for free today.</h2>
+          <h2>Ready to start?</h2>
+          <h2>Sign up for free today.</h2>
         </Row>
       </Col>
       <Col>
