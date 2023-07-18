@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Feature from "./Feature.js";
+import { Feature } from "./Feature";
 
 export const FeatureSection = ({ features }) => {
   const Features = features.map((feat) => (

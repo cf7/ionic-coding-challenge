@@ -18,6 +18,9 @@ development.json
 /.next/
 /out/
 
+# typescript
+tsconfig.tsbuildinfo
+
 # testing
 /coverage
 
